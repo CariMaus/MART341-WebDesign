@@ -35,7 +35,7 @@ p {
 strong, em {
     border-style: solid;
     border-width: 2px;
-    border-color: tomato;
+    border-color: yellow;
 }
 
 /* Select ONLY the emphasized elements. */
