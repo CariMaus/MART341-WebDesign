@@ -6,7 +6,7 @@ body{
     /* Draw a lime green border 2px thick. */
     border-style: solid;
     border-width: 2px;
-    border-color: limegreen;
+    border-color: red;
     /*Add space between the boarder and its inside elements. */
     padding: 10px;
     /* Color the background dark grey. */
@@ -35,12 +35,12 @@ p {
 strong, em {
     border-style: solid;
     border-width: 2px;
-    border-color: yellow;
+    border-color: tomato;
 }
 
 /* Select ONLY the emphasized elements. */
 em {
-    color: tomato;
+    color: orange;
 }
 
 hr {
@@ -52,7 +52,7 @@ hr {
 .secondary-container {
   border-style: solid;
   border-width: 2px;
-  border-color: yellow;
+  border-color: red;
   /*Add space between the boarder and its inside elements. */
   padding: 10px;
   /* Color the background dark grey. */
@@ -80,7 +80,7 @@ p {
 strong, em {
     border-style: solid;
     border-width: 2px;
-    border-color: tomato;
+    border-color: limegreen;
 }
 
 /* Select ONLY the emphasized elements. */
