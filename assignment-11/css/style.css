@@ -1,16 +1,16 @@
+/*This is the file, "fonts.css." */
+@font-face {
+font-family: 'Olswald';
+src: url('fonts/Oswald-regular.ttf') format('opentype');
+font-weight:700;
+font-style: normal;
+}
+
+
 body{
   font-family: Arial, Verdana, Tahoma;
 }
-/* Select the main container 'div' element */
-.main-container {
-    /* Draw a lime green border 2px thick. */
-    border-style: solid;
-    border-width: 2px;
-    border-color: red;
-    /*Add space between the boarder and its inside elements. */
-    padding: 10px;
-    /* Color the background dark grey. */
-    background: #373E42;
+
 }
 h1, h2, h3{
  font-family: sans-serif;
@@ -22,4 +22,11 @@ p {
 }
 #line-sixety {
   font-weight: bold;
+}
+
+@font-face {
+font-family: 'Olswald';
+src: url('fonts/Oswald-regular.ttf') format('opentype');
+font-weight:700;
+font-style: normal;
 }
