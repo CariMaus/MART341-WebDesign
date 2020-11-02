@@ -1,13 +1,29 @@
+body
 /*This is the file, "fonts.css." */
 @font-face {
 font-family: 'Olswald';
 src: url('fonts/Oswald-regular.ttf') format('opentype');
 font-weight:700;
 font-style: normal;
+text-align: left;
+}
+* PSEUDO ELEMENT - Select the first letter that occurs: */
+.main-content p:first-child::first-letter {
+   font-family: 'Kumar One Outline', cursive;
+   font-size: 2.5em;
+   font-weight: bold;
+}
+.main-content p:first-child::first-line {
+   color: #E95420;
+}
+h2 {
+  font-family: 'Arima Madurai', cursive;
+  font-size: 3em;
+  color: #000;
+  text-align: center;
+  margin: 0.2em;
 }
 
-
-body{
   font-family: Arial, Verdana, Tahoma;
 }
 
@@ -29,4 +45,46 @@ font-family: 'Olswald';
 src: url('fonts/Oswald-regular.ttf') format('opentype');
 font-weight:700;
 font-style: normal;
+}
+table, th, td {
+  border: 1px solid black;
+  padding: 15ox;
+  text-align: left;
+  border-spacing; 5px
+}
+.parent-element {
+    min-height: 10em;
+}
+
+.button {
+    font-size: 1.5em;
+    color: white;
+    font-weight: 600;
+    background-color: rgb(28,205,202);
+    border-color: #8f8b8b #383636 #383636 #8f8b8b;
+    border-width: 9px 15px 15px 9px;
+    border-style: solid;
+    position: relative;
+    margin: auto;
+    top: 1em;
+    padding: 1em;
+    width: 9em;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.button:hover {
+    color: #383636;
+    font-style: italic;
+}
+
+.button:active {
+    color: #fff;
+    background-color: rgb(17, 127, 126);
+    border-color: #383636 #8f8b8b #8f8b8b #383636;
+    border-width: 15px 9px 9px 15px;
 }
