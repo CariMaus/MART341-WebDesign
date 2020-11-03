@@ -7,12 +7,14 @@ font-weight:700;
 font-style: normal;
 text-align: left;
 }
+
 * PSEUDO ELEMENT - Select the first letter that occurs: */
 .main-content p:first-child::first-letter {
    font-family: 'Kumar One Outline', cursive;
    font-size: 2.5em;
    font-weight: bold;
 }
+
 .main-content p:first-child::first-line {
    color: #E95420;
 }
