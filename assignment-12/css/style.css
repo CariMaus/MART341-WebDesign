@@ -1,14 +1,14 @@
- body{
-     font-family: Arial, Verdana, Tahoma;
-   }
-   /* Select the main container 'div' element */
-   .main-container {
-       /* Draw a lime green border 2px thick. */
-       border-style: solid;
-       border-width: 2px;
-       border-color: red;
-       /*Add space between the boarder and its inside elements. */
-       padding: 10px;
-       /* Color the background dark grey. */
-       background: #373E42;
-   }
+   .parent-container h2 {
+        font-size: x-large;
+        font-weight: bolder;
+        font-style: italic;
+     }
+     .inner-box {
+        width: 75%;
+        height: 50%;
+        background-color: rgba(255,255,255,.5)
+     }
+     body{
+       font-family: Verdana, Arial, Tahoma;
+       font-size: 12px;
+     }
