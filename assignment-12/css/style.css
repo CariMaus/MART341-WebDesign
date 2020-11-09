@@ -1,12 +1,42 @@
-   .parent-container h2 {
+   .parent-container {
         font-size: x-large;
         font-weight: bolder;
         font-style: italic;
      }
      .inner-box {
         width: 75%;
+        min-width: 400px;
+        max-width: 600px;
+        height: 200px;
+        background-color: #79AF33;
+        color: #fff;
         height: 50%;
         background-color: rgba(255,255,255,.5)
+     }
+     body{
+       font-family: Verdana, Arial, Tahoma;
+       font-size: 12px;
+     }
+     .overflow-scroll {
+        overflow: scroll;
+     }
+
+     .parent-container {
+        width: 100%;
+        max-width: 1600px;
+        min-width:1200px;
+        height: 350px;
+        background-color: #79AF33;
+        margin-bottom: 50px;
+        color: white;
+        padding: 1em;
+        border: 
+     }
+     .inner-box {
+        width: 75%;
+        height: 50%;
+        background-color: #1CCDCA;
+        color: #333;
      }
      body{
        font-family: Verdana, Arial, Tahoma;
