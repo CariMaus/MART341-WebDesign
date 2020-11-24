@@ -6,7 +6,7 @@
      padding-bottom: 300px;
  }
  body{
-     background-color: #FFFFFF;
+     background-color: #000000;
  }
  div{
      text-align: left;
@@ -18,10 +18,11 @@
  h1, h3, h5{
      text-align: center;
      font-family: FiraSans, sans-serif;
+     color: white;
 
  }
  .opening-paragraph{
-     color: black;
+     color: red;
      font-size: 16px;
      text-indent: 10px;
      font-weight:700;
@@ -45,6 +46,9 @@
 
  p{
      font-family:  Merriweather, sans-serif;
+     font-size: 16px;
+     color: white;
+     font-weight: bold;
  }
 
  /* Set your header design: */
@@ -52,7 +56,7 @@
      position: fixed;
      top: 0px;
      left: 0px;
-     background-color: #26272b;
+     background-color: #FFFFFF;
      font-family: Merriweather;
      text-transform: uppercase;
      margin-top: 0;
@@ -129,7 +133,8 @@
  .col-9 {width: 75%;}
  .col-10 {width: 83.33%;}
  .col-11 {width: 91.66%;}
- .col-12 {width: 100%;}
+ .col-12 {width: 100%;
+ color: white;}
 
  [class*="col-"] {
      float: left;
@@ -156,7 +161,7 @@
 
  /* Then style the iframe to fit in the container div with full height and width */
  .responsive-iframe {
-   position: relative;
+   position: absolute;
    top: 0;
    left: 0;
    bottom: 0;
@@ -172,9 +177,8 @@ footer{
     font-size:17px;
     font-weight:bold;
     font-family:Arial;
-    letter-spacing:1px
-    position: center
-    color: #26272;
+    letter-spacing:1px;
+    color: white;
 }
 .row {
   display: flex;
